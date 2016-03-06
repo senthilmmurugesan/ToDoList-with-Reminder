@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.senthilkumar.assignment1.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="horizontal"
+    android:background="#daf9f0">
+
+    <android.support.design.widget.TabLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tabLayout"
+        android:background="#1ea680"
+        app:tabMode="fixed"
+        app:tabGravity="fill"
+        android:layout_alignParentTop="true">
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/view"
+        android:layout_below="@+id/tabLayout"
+        android:layout_alignParentStart="true"
+        android:background="#daf9f0" />
+
+</RelativeLayout>

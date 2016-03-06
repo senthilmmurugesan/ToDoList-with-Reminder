@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="todolist_hint">Enter Item</string>
+    <string name="ButtonName">\\/</string>
+    <string name="makeMove">MakeMove</string>
+    <string name="empty" />
+    <string name="reset_message">Start Again</string>
+    <string name="x_move">Begin</string>
+    <string name="winner">"Winner :  "</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_PhNum">Phone Number</string>
+    <string name="appointment_buttonName">Set Reminder</string>
+    <string name="hint_todolist">To Do List</string>
+    <string-array name="date_spinner">
+        <item>Date    .</item>
+    </string-array>
+    <string-array name="time_spinner">
+        <item>Time    .</item>
+    </string-array>
+
+</resources>
